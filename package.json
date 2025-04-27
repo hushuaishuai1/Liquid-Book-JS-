@@ -1,0 +1,27 @@
+{
+  "name": "liquid-book-js",
+  "version": "1.0.0",
+  "description": "Depth-Weighted Liquidity Market Maker Bot using Node.js (JavaScript)",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "market-maker",
+    "ccxt",
+    "binance",
+    "javascript",
+    "nodejs",
+    "sui"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "^4.3.43",
+    "dotenv": "^16.4.5",
+    "https-proxy-agent": "^7.0.6",
+    "socks-proxy-agent": "^8.0.5"
+  }
+}
